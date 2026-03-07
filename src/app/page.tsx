@@ -16,7 +16,7 @@ export default function Home() {
       {/* Hero */}
       <div className="py-32 px-8 text-center">
         <h2 className="text-5xl md:text-6xl font-bold text-emerald-900 mb-6">
-          Authentic Quran Learning
+          Learn Quran with African Tutors
         </h2>
         <p className="text-2xl text-gray-700 mb-8">
           With qualified African teachers — Recitation, Tajweed, Hifz, Quranic Arabic
@@ -84,12 +84,35 @@ export default function Home() {
           Donate / Support
         </Button>
       </section>
-
+<section className="py-16 px-6 bg-emerald-50 text-center">
+  <h3 className="text-3xl font-bold text-emerald-900 mb-6">
+    Support Quran Literacy Academy
+  </h3>
+  <p className="text-lg text-gray-700 max-w-3xl mx-auto mb-8">
+    Your donation will help onboard teachers, build booking features, and reach more students globally.  
+    Every contribution is sadaqah jariyah — may Allah reward you.
+  </p>
+  <div className="flex flex-col sm:flex-row gap-6 justify-center">
+    <Button size="lg" className="bg-emerald-700 hover:bg-emerald-800 text-white px-10 py-6 text-lg rounded-full">
+      Donate Now
+    </Button>
+    <Button size="lg" variant="outline" className="border-emerald-700 text-emerald-700 hover:bg-emerald-50 px-10 py-6 text-lg rounded-full">
+      Learn More
+    </Button>
+  </div>
+</section>
       {/* Footer */}
       <footer className="bg-gray-900 text-gray-300 py-8 text-center">
-        <p>© {new Date().getFullYear()} Quran Literacy Academy</p>
-        <p className="mt-2">In Shaa Allah — Bringing Quranic knowledge closer to hearts worldwide.</p>
-      </footer>
+  <p>© {new Date().getFullYear()} Quran Literacy Academy</p>
+  <p className="mt-2">In Shaa Allah — Bringing Quranic knowledge closer to hearts worldwide.</p>
+  <p className="mt-4 text-sm">
+    Contact: +233243083957 | quranliteracyacademy@outlook.com  
+    WhatsApp for inquiries: wa.me/+233243083957
+  </p>
+  <p className="mt-4">
+    Support the project: 0243083957 / Bank transfer details available on request
+  </p>
+</footer>
     </div>
   );
 }
